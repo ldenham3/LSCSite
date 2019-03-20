@@ -1,0 +1,43 @@
+* {
+	outline: solid .5px red;
+}
+
+body {
+  margin: 40px;
+  background-image: url("../img/sc_background.png");
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 25% 100px auto;
+	grid-gap: 10px;
+	background-color: pink;
+	color: #444;
+}
+
+.box {
+	background-color: #444;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+}
+
+
+/*.item {
+	background: yellow;
+	grid-column-start: <number> | <name> | span <number> | span <name> | auto
+	grid-column-end: <number> | <name> | span <number> | span <name> | auto
+	grid-row-start: <number> | <name> | span <number> | span <name> | auto
+	grid-row-end: <number> | <name> | span <number> | span <name> | auto
+}*/
+
+/*.item-a {
+	grid-column-start: 2;
+	grid-column-end: five;
+	grid-row-start: row1-start
+	grid-row-end: 3;
+}*/
+
+
