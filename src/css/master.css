@@ -2,9 +2,13 @@
 	outline: solid .5px red;
 }
 
-body {
-  margin: 40px;
-  background-image: url("../img/sc_background.png");
+html { 
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/sc_background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: 0 -500px;
 }
 
 .container {
